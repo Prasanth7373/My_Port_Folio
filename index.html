@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My Portfolio</title>
+	<!-- <link rel="stylesheet" type="text/css" href="Myportfolio.css"> -->
+<style type="text/css">
+	body {
+	margin:0px;
+	padding: 0px;
+}
+
+hr {
+	border:.51px solid grey;
+}
+
+.menu {
+	font-size: 1.25em;
+	padding:10px;
+	align-items: center;
+	position: relative;
+	left: 400px;
+	top: 35px;
+}
+
+.image img{
+	float: right;
+	position: relative;
+	top: 40px;
+	right: 150px;
+}
+
+
+/*.line {
+	display: inline-block;
+	width: 100px;
+	height: 6px;
+	background-color: blue;
+	position: relative;
+	left: 90px;
+	top: 100px;
+}*/
+
+.menu a {
+	height: 40px;
+	width: 100px;
+	padding: 10px;
+	margin-left: 10px;
+	margin-right: 10px;
+	text-decoration: none;
+}
+
+a {
+	color: black;
+}
+
+.contact {
+	font-size: .9em;
+	width: 8vw;
+	height: 7vh;
+	position: relative;
+	top: -8px;
+	left: 1100px;
+	color: white;
+	border:#7050EF;
+	border-radius: 15px;
+	background-color: #7050EF;
+}
+
+.Desigination h2 {
+	color: #302E65;
+	max-width: 570px;
+	max-height: 100px;
+	word-wrap: wrap;
+	font-size: 2.3em;
+	text-align: left;
+	position: relative;
+	top: 25px;
+	left: 100px;
+}
+
+.Desigination h2 strong {
+	color:  #7050EF;
+}
+
+.Desigination h3 {
+	color: #6B6B6B;
+	display: inline;
+	font-size: 1.3em;
+	text-align: left;
+	position: relative;
+	top: 10px;
+	left: 100px;
+}
+
+.Desigination p {
+	color: #71708D;
+	font-size: 1.1em;
+	text-align: left;
+	word-wrap: wrap;
+	max-height: 100px;
+	max-width: 500px;
+	position: relative;
+	top: 10px;
+	left: 100px;
+}
+
+.work {
+	color: #71708D;
+	text-align: left;
+	position: relative;
+	top: 10px;
+	left: 150px;
+}
+
+.work li {
+	text-decoration: none;
+	font-size: 1.15em;
+	padding: 3px;
+}
+
+.btn {
+	display: inline-block;
+	margin-left: 60px;
+	position: relative;
+	left: 35px;
+	top: 10px;
+
+}
+
+.project {
+	width: 15vw;
+	height: 10vh;
+	color: white;
+	font-size: 1.1em;
+	border:#7050EF;
+	border-radius: 15px;
+	background-color: #7050EF;
+}
+
+.portfolio {
+	position: relative;
+	left: 20px;
+	width: 15vw;
+	height: 10vh;
+	color: #7050EF;
+	font-size: 1.1em;
+	border:#7050EF;
+	border-radius: 15px;
+	background-color: #FAF9FF;
+}
+
+a:hover {
+	color: #7050EF;
+	background-color: #F7F6FF;
+	border: 2px #F7F6FF;
+	border-radius: 10px;
+}
+
+button.contact:hover {
+	color: #7050EF;
+	background-color: #F7F6FF;
+}
+
+button.portfolio:hover {
+	color: #FAF9FF;
+	background-color: #7050EF; 
+}
+
+button.project:hover {
+	color: #7050EF;
+	background-color:#FAF9FF ;
+}
+
+.project span {
+	cursor: pointer;
+	display: inline-block;
+	position: relative;
+	transition: 0.5s;
+}
+
+.project span:after {
+	content: '\00bb';
+	position: absolute;
+	opacity: 0;
+	top: 0;
+	right: -20px;
+	transition: 0.5s;
+}
+
+.project :hover span {
+	padding-right: 25px;
+}
+
+.project:hover span:after {
+	opacity: 1;
+	right: 0;
+}
+
+.portfolio span {
+	cursor: pointer;
+	display: inline-block;
+	position: relative;
+	transition: 0.5s;
+}
+
+.portfolio span:after {
+	content: '\00bb';
+	position: absolute;
+	opacity: 0;
+	top: 0;
+	right: -20px;
+	transition: 0.5s;
+}
+
+.portfolio :hover span {
+	padding-right: 25px;
+}
+
+.portfolio:hover span:after {
+	opacity: 1;
+	right: 0;
+}
+</style>
+</head>
+<body>
+	<div class="menu">
+		<a href="#">Home</a>
+		<a href="#">Portfolio</a>
+		<a href="#">Product</a>
+		<a href="#">Card</a>
+		<a href="#">Pages</a>
+	</div>
+	<button type="button" name="projects" class="contact"><b>Contact Me</b></button>
+	<hr>
+	<div class="image">
+		<img src="5f7c393aa725deeae39020c2_5f7364a2fca90a3ef5b715b9_designer-design-portfolio-webflow-template.jpg" width=30% height="30%">
+	</div>
+	<div class="Desigination">
+		<h2><q>Hi! I'm <strong>PRASANTH S</strong> From Builders Engineering College</q> <br></h2>
+		<h3>Generally I'm Intrested in Graphic & UI/UX Desining <br></h3>
+		<p>So I have an Experience of Graphic Designer Intern at Labdox. So in that companey i was created some social media posters and logos like.</p>
+		<ul class="work">
+			<li>Presentation</li>
+			<li>Instagram Post</li>
+			<li>Linked Banners</li>
+			<li>Video Editing</li>
+			<li>Logo & Icons Creation and</li>
+			<li>Image Creation</li>
+		</ul>
+	</div>
+	<div class="btn">
+		<button type="button" name="project" class="project"><b><span>See My Project</span></b></button>
+		<button type="button" name="Browse Portfolio" class="portfolio"><b><span>Browse Portfolio</span></span></b></button> 
+	</div>
+</body>
+</html>
